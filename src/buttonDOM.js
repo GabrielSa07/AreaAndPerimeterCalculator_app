@@ -4,6 +4,8 @@ import { perimeterCircle, perimeterDiamond, perimeterRectangle, perimeterSquare,
 
 export const selectTriangle = () => {
 
+    const results = document.querySelector('#results')
+    results.innerText = ''
     const section = document.querySelector('#section-itens')
     section.innerText =''
 
@@ -84,6 +86,8 @@ export const selectTriangle = () => {
 
 export const selectSquare = () => {
 
+    const results = document.querySelector('#results')
+    results.innerText = ''
     const section = document.querySelector('#section-itens')
     section.innerText =''
 
@@ -140,6 +144,8 @@ export const selectSquare = () => {
 
 export const selectRectangle = () => {
 
+    const results = document.querySelector('#results')
+    results.innerText = ''
     const section = document.querySelector('#section-itens')
     section.innerText =''
 
@@ -204,6 +210,8 @@ export const selectRectangle = () => {
 
 export const selectCircle = () => {
 
+    const results = document.querySelector('#results')
+    results.innerText = ''
     const section = document.querySelector('#section-itens')
     section.innerText =''
 
@@ -260,6 +268,8 @@ export const selectCircle = () => {
 
 export const selectTrapeze = () => {
 
+    const results = document.querySelector('#results')
+    results.innerText = ''
     const section = document.querySelector('#section-itens')
     section.innerText =''
 
@@ -332,6 +342,8 @@ export const selectTrapeze = () => {
 
 export const selectDiamond = () => {
 
+    const results = document.querySelector('#results')
+    results.innerText = ''
     const section = document.querySelector('#section-itens')
     section.innerText =''
 

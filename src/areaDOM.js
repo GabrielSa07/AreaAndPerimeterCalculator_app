@@ -5,9 +5,16 @@ export const areaTriangle = () => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular a área, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Área: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const areaRectangle = () => {
@@ -17,9 +24,16 @@ export const areaRectangle = () => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular a área, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Área: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const areaCircle = () => {
@@ -28,9 +42,16 @@ export const areaCircle = () => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular a área, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Área: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const areaSquare = () => {
@@ -39,9 +60,16 @@ export const areaSquare = () => {
    
     if(isNaN(result) === true) {
         alert(`Não é possível calcular a área, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Área: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const areaTrapeze = () => {
@@ -52,9 +80,16 @@ export const areaTrapeze = () => {
     
     if(isNaN(result) === true) {
         alert(`Não é possível calcular a área, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Área: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const areaDiamond = () => {
@@ -64,7 +99,14 @@ export const areaDiamond = () => {
     
     if(isNaN(result) === true) {
         alert(`Não é possível calcular a área, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Área: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }

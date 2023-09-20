@@ -6,9 +6,16 @@ export const perimeterTriangle = () => {
     
     if(isNaN(result) === true) {
         alert(`Não é possível calcular o perímetro, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Perímetro: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const perimeterRectangle = () => {
@@ -18,9 +25,16 @@ export const perimeterRectangle = () => {
     
     if(isNaN(result) === true) {
         alert(`Não é possível calcular o perímetro, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Perímetro: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const perimeterCircle = () => {
@@ -29,9 +43,16 @@ export const perimeterCircle = () => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular o perímetro, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Perímetro: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
 export const perimeterSquare = () => {
@@ -40,12 +61,19 @@ export const perimeterSquare = () => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular o perímetro, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Perímetro: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }
 
-export const perimeterTrapeze = (a, b, c, d) => {
+export const perimeterTrapeze = () => {
     const side = document.querySelector('#side')
     const majorBase = document.querySelector('#majorBase')
     const smallerBase = document.querySelector('#smallerBase')
@@ -53,9 +81,17 @@ export const perimeterTrapeze = (a, b, c, d) => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular o perímetro, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
     }
+        
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Perímetro: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
+
 }
 
 export const perimeterDiamond = () => {
@@ -64,7 +100,14 @@ export const perimeterDiamond = () => {
 
     if(isNaN(result) === true) {
         alert(`Não é possível calcular o perímetro, valor inserido não é um número.`)
-    } else {
-        return result.toFixed(2)
-    }
+    } 
+
+    const results = document.querySelector('#results')
+
+    const h3 = document.createElement('h3')
+    h3.innerText = 'Perímetro: '
+    const p = document.createElement('p')
+    p.innerText = `${result.toFixed(2)}`
+
+    results.append(h3, p)
 }

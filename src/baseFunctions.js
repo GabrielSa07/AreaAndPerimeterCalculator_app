@@ -1,0 +1,1 @@
+// fazer funções básicas e repetitivas aqui
