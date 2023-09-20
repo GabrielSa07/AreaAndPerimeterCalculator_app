@@ -1,3 +1,28 @@
-import { areaCircle, areaDiamond, areaRectangle ,areaSquare, areaTrapeze, areaTriangle } from "./src/area";
+const button = document.querySelector('#select-button')
+const select = document.querySelector('#options')
 
-import { perimeterCircle, perimeterDiamond, perimeterRectangle, perimeterSquare, perimeterTrapeze, perimeterTriangle } from "./src/perimeter";
+
+button.addEventListener('click', (ev) => {
+    ev.preventDefault()
+
+    switch(select.value) {
+        case 'triangle':
+            
+        break;
+        case 'rectangle':
+            
+        break;
+        case 'square':
+            
+        break;
+        case 'circle':
+            
+        break;
+        case 'trapeze':
+            
+        break;
+        case 'diamond':
+            
+        break;
+    }
+})
