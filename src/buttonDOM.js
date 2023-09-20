@@ -33,14 +33,17 @@ export const selectTriangle = () => {
     inputHeight.id = 'height'
     inputHeight.type = 'text'
 
-    const br = document.createElement('br')
+    const br1 = document.createElement('br')
+    const br2 = document.createElement('br')
+    const br3  = document.createElement('br')
+    const br4 = document.createElement('br')
 
     const button = document.createElement('button')
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
 
-    section.append(title, labelSideA, inputSideA, labelSideB, inputSideB, labelBase, inputBase, labelHeight, inputHeight, button)
+    section.append(title, labelSideA, inputSideA, br1, labelSideB, inputSideB, br2,labelBase, inputBase, br3, labelHeight, inputHeight, br4, button)
 }
 
 export const selectSquare = () => {
@@ -52,7 +55,7 @@ export const selectSquare = () => {
 
     const labelSide = document.createElement('label')
     labelSide.htmlFor = 'side'
-    labelSide.innerText = 'Digite o tamanho do lado A:'
+    labelSide.innerText = 'Digite o tamanho do lado:'
     const inputSide = document.createElement('input')
     inputSide.id = 'side'
     inputSide.type = 'text'
@@ -64,7 +67,7 @@ export const selectSquare = () => {
     button.id = 'button-calculator'
     button.type = 'button'
 
-    section.append(title, labelSide, inputSide, button)
+    section.append(title, labelSide, inputSide, br, button)
 }
 
 export const selectRectangle = () => {
@@ -89,13 +92,14 @@ export const selectRectangle = () => {
     inputHeight.type = 'text'
 
     const br = document.createElement('br')
+    const br1 = document.createElement('br')
     
     const button = document.createElement('button')
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
 
-    section.append(title, labelBase, inputBase, labelHeight, inputHeight, button)
+    section.append(title, labelBase, inputBase, br, labelHeight, inputHeight, br1, button)
 }
 
 export const selectCircle = () => {
@@ -119,7 +123,7 @@ export const selectCircle = () => {
     button.id = 'button-calculator'
     button.type = 'button'
 
-    section.append(title, labelRaio, inputRaio, button)
+    section.append(title, labelRaio, inputRaio, br, button)
 }
 
 export const selectTrapeze = () => {
@@ -151,13 +155,15 @@ export const selectTrapeze = () => {
     inputsmallerBase.type = 'text'
 
     const br = document.createElement('br')
+    const br1 = document.createElement('br')
+    const br2 = document.createElement('br')
     
     const button = document.createElement('button')
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
 
-    section.append(title, labelSide, inputSide, labelMajorBase, inputMajorBase, labelsmallerBase, inputsmallerBase, button)
+    section.append(title, labelSide, inputSide, br, labelMajorBase, inputMajorBase, br1, labelsmallerBase, inputsmallerBase, br2, button)
 }
 
 export const selectDiamond = () => {
@@ -189,11 +195,13 @@ export const selectDiamond = () => {
     inputsmallerDiagonal.type = 'text'
 
     const br = document.createElement('br')
+    const br1 = document.createElement('br')
+    const br2 = document.createElement('br')
     
     const button = document.createElement('button')
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
 
-    section.append(title, labelSide, inputSide, labelMajorDiagonal, inputMajorDiagonal, labelsmallerDiagonal, inputsmallerDiagonal, button)
+    section.append(title, labelSide, inputSide, br, labelMajorDiagonal, inputMajorDiagonal, br1, labelsmallerDiagonal, inputsmallerDiagonal, br2, button)
 }
