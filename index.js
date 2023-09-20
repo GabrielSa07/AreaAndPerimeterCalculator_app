@@ -1,12 +1,10 @@
 import { selectCircle, selectDiamond, selectRectangle, selectSquare, selectTrapeze, selectTriangle } from "./src/buttonDOM.js"
 
-
-
+const body = document.getElementsByTagName('body')
 const button = document.querySelector('#select-button')
 const select = document.querySelector('#options')
 
 button.addEventListener('click', (ev) => {
-    ev.preventDefault()
 
     switch(select.value) {
         case 'triangle':
@@ -30,30 +28,3 @@ button.addEventListener('click', (ev) => {
     }
 })
 
-
-const buttonCalc = document.querySelector('#button-calculator')
-
-buttonCalc.addEventListener('click', (ev) => {
-    ev.preventDefault()
-
-    switch(select.value) {
-        case 'triangle':
-            
-        break;
-        case 'rectangle':
-            
-        break;
-        case 'square':
-            
-        break;
-        case 'circle':
-            
-        break;
-        case 'trapeze':
-            
-        break;
-        case 'diamond':
-            
-        break;
-    }
-})

@@ -1,6 +1,11 @@
+import { areaCircle, areaDiamond, areaRectangle, areaSquare, areaTrapeze, areaTriangle } from "../src/areaDOM.js"
+
+import { perimeterCircle, perimeterDiamond, perimeterRectangle, perimeterSquare, perimeterTrapeze, perimeterTriangle } from "../src/perimeterDOM.js"
+
 export const selectTriangle = () => {
 
     const section = document.querySelector('#section-itens')
+    section.innerText =''
 
     const title = document.createElement('h1')
     title.innerText = 'Triângulo: '
@@ -42,6 +47,37 @@ export const selectTriangle = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.addEventListener('click', (ev) => {
+        ev.preventDefault()
+    
+        const select = document.querySelector('#options')
+        switch(select.value) {
+            case 'triangle':
+                perimeterTriangle()
+                areaTriangle()
+            break;
+            case 'rectangle':
+                perimeterRectangle()
+                areaRectangle()
+            break;
+            case 'square':
+                perimeterSquare()
+                areaSquare()       
+            break;
+            case 'circle':
+                perimeterCircle()
+                areaCircle()
+            break;
+            case 'trapeze':
+                perimeterTrapeze()
+                areaTrapeze()
+            break;
+            case 'diamond':
+                perimeterDiamond()
+                areaDiamond()
+            break;
+        }
+    })
 
     section.append(title, labelSideA, inputSideA, br1, labelSideB, inputSideB, br2,labelBase, inputBase, br3, labelHeight, inputHeight, br4, button)
 }
@@ -49,6 +85,7 @@ export const selectTriangle = () => {
 export const selectSquare = () => {
 
     const section = document.querySelector('#section-itens')
+    section.innerText =''
 
     const title = document.createElement('h1')
     title.innerText = 'Quadrado:'
@@ -66,6 +103,37 @@ export const selectSquare = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.addEventListener('click', (ev) => {
+        ev.preventDefault()
+    
+        const select = document.querySelector('#options')
+        switch(select.value) {
+            case 'triangle':
+                perimeterTriangle()
+                areaTriangle()
+            break;
+            case 'rectangle':
+                perimeterRectangle()
+                areaRectangle()
+            break;
+            case 'square':
+                perimeterSquare()
+                areaSquare()       
+            break;
+            case 'circle':
+                perimeterCircle()
+                areaCircle()
+            break;
+            case 'trapeze':
+                perimeterTrapeze()
+                areaTrapeze()
+            break;
+            case 'diamond':
+                perimeterDiamond()
+                areaDiamond()
+            break;
+        }
+    })
 
     section.append(title, labelSide, inputSide, br, button)
 }
@@ -73,6 +141,7 @@ export const selectSquare = () => {
 export const selectRectangle = () => {
 
     const section = document.querySelector('#section-itens')
+    section.innerText =''
 
     const title = document.createElement('h1')
     title.innerText = 'Retângulo: '
@@ -98,6 +167,37 @@ export const selectRectangle = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.addEventListener('click', (ev) => {
+        ev.preventDefault()
+    
+        const select = document.querySelector('#options')
+        switch(select.value) {
+            case 'triangle':
+                perimeterTriangle()
+                areaTriangle()
+            break;
+            case 'rectangle':
+                perimeterRectangle()
+                areaRectangle()
+            break;
+            case 'square':
+                perimeterSquare()
+                areaSquare()       
+            break;
+            case 'circle':
+                perimeterCircle()
+                areaCircle()
+            break;
+            case 'trapeze':
+                perimeterTrapeze()
+                areaTrapeze()
+            break;
+            case 'diamond':
+                perimeterDiamond()
+                areaDiamond()
+            break;
+        }
+    })
 
     section.append(title, labelBase, inputBase, br, labelHeight, inputHeight, br1, button)
 }
@@ -105,6 +205,7 @@ export const selectRectangle = () => {
 export const selectCircle = () => {
 
     const section = document.querySelector('#section-itens')
+    section.innerText =''
 
     const title = document.createElement('h1')
     title.innerText = 'Círculo: '
@@ -122,6 +223,37 @@ export const selectCircle = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.addEventListener('click', (ev) => {
+        ev.preventDefault()
+    
+        const select = document.querySelector('#options')
+        switch(select.value) {
+            case 'triangle':
+                perimeterTriangle()
+                areaTriangle()
+            break;
+            case 'rectangle':
+                perimeterRectangle()
+                areaRectangle()
+            break;
+            case 'square':
+                perimeterSquare()
+                areaSquare()       
+            break;
+            case 'circle':
+                perimeterCircle()
+                areaCircle()
+            break;
+            case 'trapeze':
+                perimeterTrapeze()
+                areaTrapeze()
+            break;
+            case 'diamond':
+                perimeterDiamond()
+                areaDiamond()
+            break;
+        }
+    })
 
     section.append(title, labelRaio, inputRaio, br, button)
 }
@@ -129,6 +261,7 @@ export const selectCircle = () => {
 export const selectTrapeze = () => {
 
     const section = document.querySelector('#section-itens')
+    section.innerText =''
 
     const title = document.createElement('h1')
     title.innerText = 'Trapézio: '
@@ -162,6 +295,37 @@ export const selectTrapeze = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.addEventListener('click', (ev) => {
+        ev.preventDefault()
+    
+        const select = document.querySelector('#options')
+        switch(select.value) {
+            case 'triangle':
+                perimeterTriangle()
+                areaTriangle()
+            break;
+            case 'rectangle':
+                perimeterRectangle()
+                areaRectangle()
+            break;
+            case 'square':
+                perimeterSquare()
+                areaSquare()       
+            break;
+            case 'circle':
+                perimeterCircle()
+                areaCircle()
+            break;
+            case 'trapeze':
+                perimeterTrapeze()
+                areaTrapeze()
+            break;
+            case 'diamond':
+                perimeterDiamond()
+                areaDiamond()
+            break;
+        }
+    })
 
     section.append(title, labelSide, inputSide, br, labelMajorBase, inputMajorBase, br1, labelsmallerBase, inputsmallerBase, br2, button)
 }
@@ -169,6 +333,7 @@ export const selectTrapeze = () => {
 export const selectDiamond = () => {
 
     const section = document.querySelector('#section-itens')
+    section.innerText =''
 
     const title = document.createElement('h1')
     title.innerText = 'Losango: '
@@ -202,6 +367,37 @@ export const selectDiamond = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.addEventListener('click', (ev) => {
+        ev.preventDefault()
+    
+        const select = document.querySelector('#options')
+        switch(select.value) {
+            case 'triangle':
+                perimeterTriangle()
+                areaTriangle()
+            break;
+            case 'rectangle':
+                perimeterRectangle()
+                areaRectangle()
+            break;
+            case 'square':
+                perimeterSquare()
+                areaSquare()       
+            break;
+            case 'circle':
+                perimeterCircle()
+                areaCircle()
+            break;
+            case 'trapeze':
+                perimeterTrapeze()
+                areaTrapeze()
+            break;
+            case 'diamond':
+                perimeterDiamond()
+                areaDiamond()
+            break;
+        }
+    })
 
     section.append(title, labelSide, inputSide, br, labelMajorDiagonal, inputMajorDiagonal, br1, labelsmallerDiagonal, inputsmallerDiagonal, br2, button)
 }
