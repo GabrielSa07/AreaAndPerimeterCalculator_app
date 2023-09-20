@@ -1,28 +1,31 @@
-const areaTriangle = (b, h) => {
+export const areaTriangle = (b, h) => {
     result = (b* h) / 2
     return result
 }
 
-const areaRectangle = (b, h) => {
+export const areaRectangle = (b, h) => {
     result = b * h
     return result
 }
 
-const areaCircle = (a) => {
+export const areaCircle = (a) => {
     result = Math.PI * (a ** 2)
 }
 
-const areaSquare = (a) => {
+export const areaSquare = (a) => {
     result = a ** 2
     return result
 }
 
-const areaTrapeze = (bme, bma, h) => {
+export const areaTrapeze = (bme, bma, h) => {
     result = ((bme + bma) * h ) / 2 
     return result
 }
 
-const areaDiamond = (dma, dme) => {
+export const areaDiamond = (dma, dme) => {
     result = (dma * dme) / 2
     return result
 }
+
+
+
