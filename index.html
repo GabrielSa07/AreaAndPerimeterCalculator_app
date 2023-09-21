@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Area and Perimeter Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="option-box">
 
-    <select id="options">
-        <option value="triangle">Triângulo</option>
-        <option value="rectangle">Retângulo</option>
-        <option value="square">Quadrado</option>
-        <option value="circle">Círculo</option>
-        <option value="trapeze">Trapézio</option>
-        <option value="diamond">Losango</option>
-    </select>
 
-    <button type="button" id="select-button">Selecionar</button>
+          <button id="select-button" class="learn-more" type="button">
+            Selecionar
+          </button>
+          <select id="options" class="learn-more">
+            <option selected>Escolha...</option>
+            <option value="triangle">Triângulo</option>
+            <option value="rectangle">Retângulo</option>
+            <option value="square">Quadrado</option>
+            <option value="circle">Círculo</option>
+            <option value="trapeze">Trapézio</option>
+            <option value="diamond">Losango</option>
+          </select>
+      </div>
 
-    <section id="section-itens"></section>
+        <section id="section-itens"></section>
+        <section id="results"></section>
 
-    <section id="results"></section>
-    
+    </div>
 
     <script type="module" src="./index.js"></script>
-</body>
+  </body>
 </html>
