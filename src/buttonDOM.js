@@ -1,6 +1,3 @@
-import { areaCircle, areaDiamond, areaRectangle, areaSquare, areaTrapeze, areaTriangle } from "../src/areaDOM.js"
-
-import { perimeterCircle, perimeterDiamond, perimeterRectangle, perimeterSquare, perimeterTrapeze, perimeterTriangle } from "../src/perimeterDOM.js"
 import { switchFunction } from "./baseFunctions.js"
 
 export const selectTriangle = () => {
@@ -52,6 +49,7 @@ export const selectTriangle = () => {
     button.type = 'button'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
+        results.innerText = ''
         switchFunction() 
     })
 
@@ -83,6 +81,7 @@ export const selectSquare = () => {
     button.type = 'button'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
+        results.innerText = ''
         switchFunction() 
     })
 
@@ -122,6 +121,7 @@ export const selectRectangle = () => {
     button.type = 'button'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
+        results.innerText = ''
         switchFunction() 
     })
 
@@ -153,6 +153,7 @@ export const selectCircle = () => {
     button.type = 'button'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
+        results.innerText = ''
         switchFunction() 
     })
 
@@ -200,6 +201,7 @@ export const selectTrapeze = () => {
     button.type = 'button'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
+        results.innerText = ''
         switchFunction() 
     })
 
@@ -247,6 +249,7 @@ export const selectDiamond = () => {
     button.type = 'button'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
+        results.innerText = ''
         switchFunction() 
     })
 

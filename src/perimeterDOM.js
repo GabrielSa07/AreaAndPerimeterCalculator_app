@@ -10,12 +10,12 @@ export const perimeterTriangle = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Perímetro: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Perímetro: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const perimeterRectangle = () => {
@@ -29,12 +29,12 @@ export const perimeterRectangle = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Perímetro: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Perímetro: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const perimeterCircle = () => {
@@ -47,12 +47,12 @@ export const perimeterCircle = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Perímetro: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Perímetro: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const perimeterSquare = () => {
@@ -65,12 +65,12 @@ export const perimeterSquare = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Perímetro: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Perímetro: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const perimeterTrapeze = () => {
@@ -85,12 +85,12 @@ export const perimeterTrapeze = () => {
         
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Perímetro: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Perímetro: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 
 }
 
@@ -104,10 +104,10 @@ export const perimeterDiamond = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Perímetro: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Perímetro: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }

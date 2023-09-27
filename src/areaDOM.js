@@ -9,12 +9,12 @@ export const areaTriangle = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Área: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Área: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const areaRectangle = () => {
@@ -28,12 +28,12 @@ export const areaRectangle = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Área: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Área: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const areaCircle = () => {
@@ -46,12 +46,12 @@ export const areaCircle = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Área: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Área: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const areaSquare = () => {
@@ -64,12 +64,12 @@ export const areaSquare = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Área: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Área: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const areaTrapeze = () => {
@@ -84,12 +84,12 @@ export const areaTrapeze = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Área: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Área: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }
 
 export const areaDiamond = () => {
@@ -103,10 +103,10 @@ export const areaDiamond = () => {
 
     const results = document.querySelector('#results')
 
-    const h3 = document.createElement('h3')
-    h3.innerText = 'Área: '
+    const h5 = document.createElement('h5')
+    h5.innerText = 'Área: '
     const p = document.createElement('p')
     p.innerText = `${result.toFixed(2)}`
 
-    results.append(h3, p)
+    results.append(h5, p)
 }

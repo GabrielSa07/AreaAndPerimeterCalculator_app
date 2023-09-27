@@ -1,12 +1,8 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.3.2"
-  },
   "name": "areaandperimetercalculator_app",
   "description": "app apenas para prática",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
