@@ -47,6 +47,7 @@ export const selectTriangle = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.className = 'btn btn-warning'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
         results.innerText = ''
@@ -79,6 +80,7 @@ export const selectSquare = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.className = 'btn btn-warning'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
         results.innerText = ''
@@ -119,6 +121,7 @@ export const selectRectangle = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.className = 'btn btn-warning'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
         results.innerText = ''
@@ -151,6 +154,7 @@ export const selectCircle = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.className = 'btn btn-warning'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
         results.innerText = ''
@@ -199,6 +203,7 @@ export const selectTrapeze = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.className = 'btn btn-warning'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
         results.innerText = ''
@@ -247,6 +252,7 @@ export const selectDiamond = () => {
     button.innerText = 'Calcular'
     button.id = 'button-calculator'
     button.type = 'button'
+    button.className = 'btn btn-warning'
     button.addEventListener('click', (ev) => {
         ev.preventDefault()
         results.innerText = ''
